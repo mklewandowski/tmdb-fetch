@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { apiKey } from './Key';
 import './App.css';
 
 function App() {
@@ -12,7 +13,6 @@ function App() {
 
   async function getTrendingMovieData(type) {
     try {
-      const apiKey = "SOME-KEY";
       let resp = await axios.get(`https://api.themoviedb.org/3/trending/${type}/day?api_key=${apiKey}&media_type=movie`);
       console.log(21, resp.data.results);
 
