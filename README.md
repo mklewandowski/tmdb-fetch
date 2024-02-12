@@ -1,3 +1,9 @@
+# TMDB-fetch
+A small website that fetches and displays movie information from TMDB using the TMDB API.
+
+## Credits
+Based on this example: https://github.com/AndyUGA/movie_db_project_tutorial
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
